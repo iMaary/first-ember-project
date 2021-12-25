@@ -20,7 +20,7 @@ module('Acceptance | super rentals', function (hooks) {
 
     // and searching for the text in button from jumbo class
     assert.dom('.jumbo a.button').hasText('About Us');
-    // Accessing the button URL 
+    // Accessing the button URL
     await click('.jumbo a.button');
 
     // and checking if the current URL is being for about route
@@ -42,7 +42,7 @@ module('Acceptance | super rentals', function (hooks) {
   test('visiting getting-in-touch', async function (assert) {
     await visit('/getting-in-touch');
 
-    assert.equal(currentURL(), '/getting-in-touch')
+    assert.equal(currentURL(), '/getting-in-touch');
     assert.dom('h2').hasText('Contact Us');
 
     assert.dom('.jumbo a.button').hasText('About');
