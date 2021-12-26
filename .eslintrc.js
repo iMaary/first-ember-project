@@ -20,9 +20,12 @@ module.exports = {
     browser: true,
   },
   rules: {
-    "prettier/prettier": ["error", {
-      "endOfLine":"auto"
-    }],
+    'prettier/prettier': [
+      'error',
+      {
+        'endOfLine': 'auto',
+      }
+    ],
   },
   overrides: [
     // node files
