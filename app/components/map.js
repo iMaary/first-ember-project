@@ -4,7 +4,6 @@ import ENV from '/config/environment';
 const MAPBOX_API = 'https://api.mapbox.com/styles/v1/mapbox/streets-v11/static';
 
 export default class MapComponent extends Component {
-
   get src() {
     let { lng, lat, width, height, zoom } = this.args;
 

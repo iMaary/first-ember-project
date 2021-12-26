@@ -8,7 +8,6 @@ export default class RentalImageComponent extends Component {
   //   super(...args);
   //   this.isLarge = false;
   // }
-  
   //second mode implements
   // isLarge = false;
   @tracked isLarge = false;
