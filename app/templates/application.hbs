@@ -1,9 +1,8 @@
 {{page-title "Application"}}
 
-<TemplateNames/> 
-<br><br>
-<FruitList @whatever='write here...'/>
-{{!-- {{fruit-list whatever='write here...'}} --}}
+<LinkTo @route='/'><h2>Home</h2></LinkTo>
+<LinkTo @route='papers'>Papers</LinkTo>
+<LinkTo @route='staplers'>Staplers</LinkTo>
 <br><br>
 
 {{ outlet }}
