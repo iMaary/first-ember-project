@@ -5,4 +5,18 @@
 <LinkTo @route='staplers'>Staplers</LinkTo>
 <br><br>
 
+{{!-- {{#office-stapler as |prop|}}
+  Favorite Number: {{prop.mynumber}} <br>
+  Color: {{prop.color}} <br>
+  Number of Staples: {{prop.staples}} <br>
+  Inside Component
+{{/office-stapler}} --}}
+
+<OfficeStapler @pressed={{action 'pressed'}} as |prop|>
+  Favorite Number: {{prop.mynumber}} <br>
+  Color: {{prop.color}} <br>
+  Number of Staples: {{prop.staples}} <br>
+  Inside Component
+</OfficeStapler>
+
 {{ outlet }}
